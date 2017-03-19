@@ -1,0 +1,49 @@
+/* External CSS Style sheet for Session 4 - Assignment 4*/
+.container{
+	margin-top: 90px;
+	width: 800px;
+	margin-left: 200px;
+}
+
+.box1{
+	width:200px;
+	height:200px;
+	background-color:#red;
+	margin:auto;
+	padding: 20px;
+	position: absolute;
+	background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+.box2{
+	width:200px;
+	height:200px;
+	background-color:#F6B936;
+	margin:auto;
+	padding: 20px;
+	position: absolute;
+	margin-left: 300px;
+	background: yellow; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(circle, yellow, blue, green); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(circle, yellow, blue, green); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(circle, yellow, blue, green); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(circle, yellow, blue, green); /* Standard syntax */
+}
+
+.box3{
+	width:200px;
+	height:200px;
+	background-color:#F65936;
+	margin:auto;
+	padding: 20px;
+	position: absolute;
+	margin-left: 600px;
+	background: yellow; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(circle at 50% 10%, pink, blue, black); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(circle at 50% 10%, pink, blue, black); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(circle at 50% 10%, pink, blue, black); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(circle at 50% 10%, pink, blue, black); /* Standard syntax */
+}
